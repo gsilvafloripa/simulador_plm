@@ -11,9 +11,9 @@ import { ReactComponent as Me1 } from '../../../../public/product/me1.svg'
 import { ReactComponent as Sd1 } from '../../../../public/product/sd1.svg'
 import { ReactComponent as Se1 } from '../../../../public/product/se1.svg'
 
-import { ReactComponent as CC1 } from '../../../../public/product/m1/camiseta/c1.svg'
-import { ReactComponent as CC2 } from '../../../../public/product/m1/camiseta/c2.svg'
-import { ReactComponent as CC3 } from '../../../../public/product/m1/camiseta/c3.svg'
+import { ReactComponent as CC1 } from '../../../../public/product/m3/camiseta/camiseta.svg'
+// import { ReactComponent as CC2 } from '../../../../public/product/m1/camiseta/c2.svg'
+// import { ReactComponent as CC3 } from '../../../../public/product/m1/camiseta/c3.svg'
 
 import { ReactComponent as S1 } from '../../../../public/product/m1/short/s1.svg'
 import { ReactComponent as S2 } from '../../../../public/product/m1/short/s2.svg'
@@ -58,9 +58,9 @@ const Product: React.FC = () => {
 						<span>
 							<Gola fill={color.camiseta.gola} />
 						</span>
-						<span>
+						{/* <span>
 							<Ribana fill={color.camiseta.ribana} />
-						</span>
+						</span> */}
 						{/* camiseta */}
 						<span>
 							<C1 fill={color.camiseta.cores[0]} />
@@ -74,12 +74,12 @@ const Product: React.FC = () => {
 						<span>
 							<CC1 fill={color.camiseta.cores[1]} />
 						</span>
-						<span>
+						{/* <span>
 							<CC2 fill={color.camiseta.cores[2]} />
-						</span>
-						<span>
+						</span> */}
+						{/* <span>
 							<CC3 fill={color.camiseta.cores[3]} />
-						</span>
+						</span> */}
 						{/* camiseta */}
 
 						{/* short */}
